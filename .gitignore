@@ -12,3 +12,7 @@ SCOPE_v*/exercise*
 SCOPE_v1.73/
 data/
 output/
+docs/.DS_Store
+input/.DS_Store
+src/.DS_Store
+.DS_Store
