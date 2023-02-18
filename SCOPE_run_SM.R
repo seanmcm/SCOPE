@@ -7,7 +7,7 @@ library(fishmethods)
 library(lubridate)
 library(dplyr)
 library(ggplot2)
-
+setwd("/Users/Sean/Dropbox/GIT_REPOSITORIES/bcipanama/")
 run_matlab_script("../SCOPE_test/SCOPE.m", # folder location of SCOPE
                   verbose = TRUE, 
                   desktop = FALSE,
@@ -17,7 +17,7 @@ run_matlab_script("../SCOPE_test/SCOPE.m", # folder location of SCOPE
                   single_thread = FALSE)
 
 # Step 1: Load all functions, libraries and run verification of SCOPE
-source(file = "../../bcipanama/7_scope/scope_functions.R")
+source(file = "7_scope/scope_functions.R")
 
 # Step 2: Turn on/off verification mode and choose simulation protocol
 # verify = 0:on; 1:off
